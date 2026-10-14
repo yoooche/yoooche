@@ -15,8 +15,16 @@ Java · Spring Boot · Redis · Kafka · RDBMS · GCP · Jenkins · ELK · Grafa
 ### Featured projects
 
 - **[system-design-lab](https://github.com/yoooche/system-design-lab)**: Companion code for my 30-part iThome Ironman series on system design, a Spring Boot lab with Redis-backed rate limiters (fixed window, sliding window, token bucket, leaky bucket), Kafka messaging, and WebSocket notifications fanned out over Redis Pub/Sub. [Read the series (zh-TW)](https://ithelp.ithome.com.tw/users/20161582/ironman/8273)
-- **[gateway](https://github.com/yoooche/gateway)**: API gateway on Spring Cloud Gateway with JWT authentication, Spring Security, and Eureka service discovery.
-- **[data-converter-plugin](https://github.com/yoooche/data-converter-plugin)**: Claude Code plugin whose skill maps columns from .xlsx/.csv sources onto a CSV template and generates a Node.js conversion script.
+
+### [Kumicare](https://github.com/kumicare)
+
+A side project: a LINE-based family care assistant for my own household, built with AI coding agents.
+
+- **kumi-center**: Java 21 / Spring Boot service that ingests door-sensor events over MQTT, stores them in Supabase PostgreSQL, and pushes LINE alerts
+- **kumi-brain-sql**: PostgreSQL schema with row-level security, idempotent RPCs, and database tests for shared household tasks
+- **kumi-tools**: Agent plugin exposing family task, calendar, and sheet tools through named Supabase RPCs
+- **kumi-app**: TypeScript API for deterministic LINE actions plus a React LIFF task app
+- **kumi-docs-processor**: FastAPI + OpenCV document-scan MVP
 
 ### Currently exploring
 
