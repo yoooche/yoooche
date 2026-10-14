@@ -14,7 +14,7 @@ Java · Spring Boot · Redis · Kafka · RDBMS · GCP · Jenkins · ELK · Grafa
 
 ### Featured projects
 
-- **[system-design-lab](https://github.com/yoooche/system-design-lab)**: Companion code for my 30-part iThome Ironman series on system design, a Spring Boot lab with Redis-backed rate limiters (fixed window, sliding window, token bucket, leaky bucket), Kafka messaging, and WebSocket notifications fanned out over Redis Pub/Sub. [Read the series (zh-TW)](https://ithelp.ithome.com.tw/users/20161582/ironman/8273)
+- **[system-design-lab](https://github.com/yoooche/system-design-lab)**: Companion code for my [30-day iThome Ironman series](https://ithelp.ithome.com.tw/users/20161582/ironman/8273) on system design, a Spring Boot lab with Redis-backed rate limiters (fixed window, sliding window, token bucket, leaky bucket), Kafka messaging, and WebSocket notifications fanned out over Redis Pub/Sub.
 
 ### [Kumicare](https://github.com/kumicare)
 
