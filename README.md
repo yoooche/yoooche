@@ -18,7 +18,7 @@ Java · Spring Boot · Redis · Kafka · RDBMS · GCP · Jenkins · ELK · Grafa
 
 ### [Kumicare](https://github.com/kumicare)
 
-A side project: a LINE-based family care assistant for my own household, built with AI coding agents.
+A side project: an AI-powered LINE assistant for family care in my own household, self-hosted on a Hostinger VPS and built with AI coding agents.
 
 - **kumi-center**: Java 21 / Spring Boot service that ingests door-sensor events over MQTT, stores them in Supabase PostgreSQL, and pushes LINE alerts
 - **kumi-brain-sql**: PostgreSQL schema with row-level security, idempotent RPCs, and database tests for shared household tasks
