@@ -21,6 +21,7 @@ Java · Spring Boot · Redis · Kafka · RDBMS · GCP · Jenkins · ELK · Grafa
 A side project: an AI-powered LINE assistant for family care in my own household, self-hosted on a Hostinger VPS and built with AI coding agents.
 
 - **kumi-center**: Java 21 / Spring Boot service that ingests door-sensor events over MQTT, stores them in Supabase PostgreSQL, and pushes LINE alerts
+- **kumi-care**: Python BLE bridge that relays Xiaomi door-sensor events to MQTT over TLS, with a durable local outbox
 - **kumi-brain-sql**: PostgreSQL schema with row-level security, idempotent RPCs, and database tests for shared household tasks
 - **kumi-tools**: Agent plugin exposing family task, calendar, and sheet tools through named Supabase RPCs
 - **kumi-app**: TypeScript API for deterministic LINE actions plus a React LIFF task app
